@@ -179,6 +179,39 @@ img {
   font-size: 1.6rem;
   padding: 20px;
 }
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-bottom: 2px dashed #C0C0C0;
+}
+@media (max-width: 525px) {
+  header {
+    flex-direction: column;
+  }
+}
+header .nav-wrapper {
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 0;
+  align-items: center;
+}
+header .nav-wrapper nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+header .nav-wrapper nav a {
+  text-decoration: none;
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  padding: 0 20px;
+}
 .home header {
   display: flex;
   flex-wrap: wrap;
